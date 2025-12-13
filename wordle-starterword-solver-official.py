@@ -30,7 +30,7 @@ while True:
 if (option_input) == 1:
     days = 3
 elif (option_input) == 2:
-    days = input("days: ")
+    days = int(input("days: "))
 
 for day in range(days):
     # Enter the colored pattern
@@ -102,4 +102,5 @@ for day in range(days):
     
     time.sleep(1)
 print(f'\n possible matches({len(current_matches)}): {current_matches}\n')
+
         # nsfile.write(f"\n used word list from {wordlist_file}\n pattern is ${your_sw_colored_pattern}")
