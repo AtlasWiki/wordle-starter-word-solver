@@ -1,5 +1,5 @@
 # wordle-starter-word-solver
-A python program to figure out your friend's starter word!
+A python program or even HTML file to figure out your friend's starter word!
 ___
 
 ### How to Use
